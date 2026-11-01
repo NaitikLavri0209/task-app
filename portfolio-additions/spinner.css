@@ -1,0 +1,5 @@
+/* add to your portfolio CSS for Spinner / ErrorMessage */
+.spinner-wrap { display:flex; align-items:center; gap:.7rem; justify-content:center; padding:2rem; }
+.spinner { width:26px; height:26px; border:3px solid #ddd; border-top-color:#4f46e5; border-radius:50%; animation:spin .8s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+.error { display:flex; justify-content:space-between; background:#fee2e2; color:#991b1b; padding:.6rem .9rem; border-radius:8px; }
